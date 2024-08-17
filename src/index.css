@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Add to your main CSS or SCSS file */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 :where(.menu li) {
   position: unset;
@@ -24,9 +27,6 @@ summary {
   font-size: 17px;
   line-height: 28px;
 }
-/* Add to your main CSS or SCSS file */
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
 
 .item {
   position: relative;

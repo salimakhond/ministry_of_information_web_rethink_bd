@@ -1,12 +1,14 @@
+import { FaFacebook, FaYoutube } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer>
       <img
         src="https://moi.gov.bd/themes/responsive_npf/images/footer_top_bg.png"
         alt=""
-        className="w-full lg:h-32"
+        className="w-full lg:h-32 bg-white"
       />
-      <div className="px-8 lg:px-0 py-10 bg-base-300 text-[#222]">
+      <div className="px-5 md:px-0 lg:px-0 py-10 bg-[#e6e6e6] text-[#222]">
         <div className="container m-auto">
           <div className="flex gap-5 lg:gap-10">
             <div className="w-full">
@@ -49,12 +51,21 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <aside className="mt-4">
-                <p className="p-0 lg:pl-4">
-                  Copyright © ${new Date().getFullYear()} - All right reserved
-                  by Ministry of Information and Broadcasting
-                </p>
-              </aside>
+              <div className="flex flex-col lg:flex-row lg:items-center p-0 lg:pl-4 mt-4">
+                <p className="font-medium">Follow Me:</p>
+                <ul className="flex gap-4 lg:mt-0 mt-4 ml-0 lg:ml-4">
+                  <li>
+                    <a href="https://www.facebook.com/MinInfoBD">
+                      <FaFacebook className="text-[#1877F2] text-3xl" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/channel/UCcKp_qLm1jT3kyMNGU6w4xQ">
+                      <FaYoutube className="text-[#c4302b] text-3xl" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className="w-full">
               <div className="float-right">
@@ -81,7 +92,7 @@ const Footer = () => {
                   </a>
                   .
                 </p>
-                <p className="flex flex-col lg:flex-row lg:items-center text-sm ">
+                <p className="flex flex-col lg:flex-row lg:items-center text-sm">
                   Technical Support:
                   <img
                     src="https://moi.gov.bd/themes/responsive_npf/img/np-logo-set.png"
@@ -92,6 +103,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <aside className="mt-12">
+            <p className="p-0 lg:pl-4 text-center">
+              Copyright © ${new Date().getFullYear()} - All right reserved by
+              Ministry of Information and Broadcasting
+            </p>
+          </aside>
         </div>
       </div>
     </footer>

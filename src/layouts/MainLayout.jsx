@@ -9,7 +9,7 @@ const MainLayout = () => {
       <HeroArea />
       <NavBar />
       <div className="flex flex-col min-h-screen container mx-auto sm:px-6 lg:px-4">
-        <main className="">
+        <main className="bg-white">
           <Outlet />
         </main>
       </div>

@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import img16430 from "../assets/16430.png";
 
 const images = [
   "https://www.teletalk.com.bd/themes/teletalk/assets/main/images/icon/333.png",
@@ -9,7 +10,7 @@ const images = [
   "https://www.teletalk.com.bd/themes/teletalk/assets/main/images/icon/109.png",
   "https://www.teletalk.com.bd/themes/teletalk/assets/main/images/icon/106.png",
   "https://www.teletalk.com.bd/themes/teletalk/assets/main/images/icon/1090.png",
-  "https://bangladesh.gov.bd/sites/default/files/files/bangladesh.gov.bd/page/972e48fb_41f7_499c_917c_25b2e1c5b625/Leagal-Aid-call-centre02.png",
+  img16430,
   // Add more image paths as needed
 ];
 
@@ -49,7 +50,7 @@ const AutoCarousel = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container bg-white">
       <Slider {...settings}>
         {images.map((src, index) => (
           <div key={index} className="my-8 lg:my-12">

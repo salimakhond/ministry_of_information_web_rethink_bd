@@ -15,8 +15,8 @@ import { RiBook2Line } from "react-icons/ri";
 
 const OfficialsTeam = () => {
   return (
-    <div className="mb-8 lg:mb-24 px-6 lg:p-0">
-      <div className="grid grid-col-1 lg:grid-cols-2 gap-16 lg:gap-8">
+    <div className="pb-8 lg:pb-24 px-5 md:px-0 lg:px-0">
+      <div className="grid grid-col-1 lg:grid-cols-2 gap-12 lg:gap-8">
         <div>
           <div className="mb-8">
             <h2 className="text-2xl lg:text-3xl text-[#222] font-bold">
@@ -28,7 +28,7 @@ const OfficialsTeam = () => {
             </p>
           </div>
           <div>
-            <ul className="bg-[#fafafa] border-[5px] border-[#ebebeb] p-3 px-4 lg:p-5 lg:px-8 list-none w-full grid grid-cols-2 gap-2">
+            <ul className="bg-[#fafafa] border-[5px] border-[#ebebeb] rounded-md p-3 px-4 lg:p-5 lg:px-8 list-none w-full grid grid-cols-2 gap-2">
               <li className="my-2 group group">
                 <a
                   href="#"

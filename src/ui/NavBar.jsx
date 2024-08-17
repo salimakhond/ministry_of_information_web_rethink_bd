@@ -3,7 +3,7 @@ const NavBar = () => {
     <div className=" navbar p-0 justify-center items-center bg-[#609513] text-white">
       <div className="container">
         <div className="navbar-center">
-          <div className="dropdown">
+          <div className="dropdown  z-20">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content z-[1] mt-2 w-52 p-2 shadow bg-[#609513] text-white"
+              className="menu menu-sm dropdown-content mt-2 w-52 p-2 shadow bg-[#609513] text-white"
             >
               <li>
                 <a className="hover:bg-opacity-5 rounded-none">Home</a>
@@ -58,7 +58,7 @@ const NavBar = () => {
                 <summary className="hover:bg-opacity-5 rounded-none">
                   Affiliated Offices/Institutions
                 </summary>
-                <ul className="top-0 left-[200px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
+                <ul className="top-0 left-[200px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none z-[2]">
                   <li>
                     <a className="hover:bg-opacity-5 rounded-none">
                       Affiliated Offices Page 1
@@ -85,7 +85,7 @@ const NavBar = () => {
                 <summary className="hover:bg-opacity-5 rounded-none">
                   Projects
                 </summary>
-                <ul className="top-0 left-[200px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
+                <ul className="top-0 left-[200px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none z-[2]">
                   <li>
                     <a className="hover:bg-opacity-5 rounded-none">
                       Projects Page 1
@@ -112,7 +112,7 @@ const NavBar = () => {
                 <summary className="hover:bg-opacity-5 rounded-none">
                   Contact & Comment
                 </summary>
-                <ul className="top-0 left-[200px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
+                <ul className="top-0 left-[200px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none z-[2]">
                   <li>
                     <a className="hover:bg-opacity-5 rounded-none">
                       Contact & Comment Page 1
@@ -139,7 +139,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="navbar-start hidden lg:flex">
-          <ul className="menu p-0 menu-horizontal">
+          <ul className="menu p-0 menu-horizontal z-20">
             <li>
               <a className="hover:bg-opacity-5 rounded-none py-6">Home</a>
             </li>
@@ -147,7 +147,7 @@ const NavBar = () => {
               <summary className="py-6 hover:bg-opacity-5 rounded-none">
                 About us
               </summary>
-              <ul className="top-[68px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
+              <ul className="top-[76px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
                 <li>
                   <a className="hover:bg-opacity-5 rounded-none">
                     About us page 1
@@ -174,7 +174,7 @@ const NavBar = () => {
               <summary className="py-6 hover:bg-opacity-5 rounded-none">
                 Affiliated Offices/Institutions
               </summary>
-              <ul className="top-[68px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
+              <ul className="top-[76px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
                 <li>
                   <a className="hover:bg-opacity-5 rounded-none">
                     Affiliated Offices Page 1
@@ -201,7 +201,7 @@ const NavBar = () => {
               <summary className="py-6 hover:bg-opacity-5 rounded-none">
                 Projects
               </summary>
-              <ul className="top-[68px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
+              <ul className="top-[76px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
                 <li>
                   <a className="hover:bg-opacity-5 rounded-none">
                     Projects Page 1
@@ -228,7 +228,7 @@ const NavBar = () => {
               <summary className="py-6 hover:bg-opacity-5 rounded-none">
                 Contact & Comment
               </summary>
-              <ul className="top-[68px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
+              <ul className="top-[76px] absolute w-max ml-0 p-0 bg-[#609513] invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-300 rounded-none">
                 <li>
                   <a className="hover:bg-opacity-5 rounded-none">
                     Contact & Comment Page 1
